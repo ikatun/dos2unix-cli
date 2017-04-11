@@ -12,5 +12,10 @@ const args = yargs
 
 const files = globArray.sync(args._);
 
-files.map(file => lf.convertSync(file, { ending: lf.lf }));
+console.log('Converting:')
+files.map(file => {
+  console.log('  ' + file);
+  lf.convertSync(file, { ending: lf.lf });
+});
+console.log('done');
 
