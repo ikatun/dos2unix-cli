@@ -1,6 +1,6 @@
 {
   "name": "dos2unix-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A NodeJS commandline tool to convert DOS line breaks to Unix line breaks",
   "main": "index.js",
   "scripts": {
@@ -20,8 +20,7 @@
   },
   "homepage": "https://github.com/ikatun/dos2unix-cli#readme",
   "dependencies": {
-    "glob-array": "^0.1.2",
-    "linefeeds": "^0.2.0",
+    "glob-array": "^1.0.0",
     "yargs": "^7.0.2"
   }
 }
